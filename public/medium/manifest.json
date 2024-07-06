@@ -1,7 +1,7 @@
 {
   "api": {
     "type": "openapi",
-    "url": "https://openai-collections.chat-plugin.lobehub.com/medium/openapi.json",
+    "url": "https://manifest-ivory.vercel.app/medium/openapi.json",
     "is_user_authenticated": false
   },
   "auth": {
