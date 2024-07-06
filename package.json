@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17",
-    "@fcode/lint": "latest",
+    "@fcodea/lint": "latest",
     "@types/lodash": "^4",
     "@types/node": "^20",
     "commitlint": "^17",
