@@ -13,6 +13,6 @@
   "legal_info_url": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
   "logo_url": "https://manifest-ivory.vercel.app/cryptonews/logo.webp",
   "name_for_human": "Search News",
-  "name_for_model": "SearchGPTPlugin",
+  "name_for_model": "Search News",
   "schema_version": "v1"
 }

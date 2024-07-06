@@ -1,7 +1,7 @@
 {
     "openapi": "3.0.0",
     "info": {
-      "title": "YourApp Plugin API",
+      "title": "Fcode crypto news",
       "version": "1.0.0",
       "description": "API for accessing, browsing, and extracting content from YourApp."
     },
