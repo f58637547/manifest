@@ -11,7 +11,7 @@
         "avatar": "https://manifest-ivory.vercel.app/cryptonews/logo.webp",
         "description": "Plugin for accessing, browsing and extracting Fcode AI news content.",
         "tags": ["news"],
-        "title": "Search News Crypto"
+        "title": "Fcode crypto news"
       },
       "schemaVersion": 1
     },
