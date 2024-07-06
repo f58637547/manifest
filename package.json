@@ -1,10 +1,10 @@
 {
-  "name": "@lobehub/lobe-openai-plugins",
+  "name": "@fcode/manifest",
   "version": "1.0.0",
   "private": true,
-  "description": "a collection of openai plugins that chan work with LobeChat",
-  "homepage": "https://github.com/lobehub/lobe-openai-plugins",
-  "repository": "https://github.com/lobehub/lobe-openai-plugins.git",
+  "description": "a collection of openai plugins",
+  "homepage": "https://github.com/fcode/mmanifest",
+  "repository": "https://github.com/fcode/manifest.git",
   "scripts": {
     "build": "bun src/index.ts",
     "ci": "npm run lint && npm run type-check",
@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17",
-    "@lobehub/lint": "latest",
+    "@fcode/lint": "latest",
     "@types/lodash": "^4",
     "@types/node": "^20",
     "commitlint": "^17",
