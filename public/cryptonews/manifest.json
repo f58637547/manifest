@@ -3,7 +3,7 @@
     "createdAt": "2024-07-05",
     "homepage": "https://fcode.ai",
     "identifier": "YourAppGPTPlugin",
-    "manifest": "https://app-2-0-sand.vercel.app/search/news/manifest.json",
+    "manifest": "https://manifest-ivory.vercel.app/cryptonews/manifest.json",
     "meta": {
       "description": "Plugin for accessing, browsing, and extracting content from YourApp.",
       "tags": ["content", "search"],
@@ -12,7 +12,7 @@
     "schemaVersion": 1,
     "api": {
       "type": "openapi",
-      "url": "https://app-2-0-sand.vercel.app/search/news/openapi.json",
+      "url": "https://manifest-ivory.vercel.app/cryptonews/openapi.json",
       "is_user_authenticated": false
     },
     "auth": {
