@@ -1,20 +1,20 @@
 {
   "expires": [
-    "GifApi",
-    "stackoverflow_plus",
-    "speak",
-    "diagrams_show_me",
-    "scholarly",
-    "nba_stats",
-    "earthquake",
-    "Bardeen",
-    "ImageSearch",
-    "Charts_and_Diagrams",
-    "domatron",
-    "factcheck",
-    "askyourpdf"
   ],
   "plugins": [
+    {
+      "author": "fcode",
+      "homepage": "https://seo-plugin.orrenprunckun.com",
+      "identifier": "searchnews",
+      "manifest": "https://manifest-ivory.vercel.app/cryptonews/manifest.json",
+      "meta": {
+        "avatar": "https://manifest-ivory.vercel.app/cryptonews/logo.webp",
+        "description": "Plugin for accessing, browsing and extracting Fcode AI news content.",
+        "tags": ["news"],
+        "title": "Search News Crypto"
+      },
+      "schemaVersion": 1
+    },
     {
       "author": "orrenprunckun",
       "homepage": "https://seo-plugin.orrenprunckun.com",
