@@ -500,9 +500,9 @@
       "author": "medium",
       "homepage": "https://medium.com",
       "identifier": "MediumGPTPlugin",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/medium/manifest.json",
+      "manifest": "https://manifest-ivory.vercel.app/medium/manifest.json",
       "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/medium/logo.webp",
+        "avatar": "https://manifest-ivory.vercel.app/medium/logo.webp",
         "description": "Plugin for accessing, browsing and extracting Medium content.",
         "tags": ["article", "search"],
         "title": "Medium plugin"
