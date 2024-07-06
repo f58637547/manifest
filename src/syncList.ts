@@ -11,6 +11,11 @@ interface PluginItem {
 }
 const PluginList: PluginItem[] = [
   {
+    manifest: 'https://manifest-ivory.vercel.app/.well-known/ai-plugin.json',
+    path: 'cryptonews',
+    tags: ['article', 'search'],
+  },
+  {
     manifest: 'https://seo-plugin.orrenprunckun.com/.well-known/ai-plugin.json',
     path: 'seo',
     tags: ['seo'],
