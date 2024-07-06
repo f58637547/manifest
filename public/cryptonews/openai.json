@@ -6,7 +6,7 @@
       "description": "API for accessing, browsing, and extracting content from YourApp."
     },
     "paths": {
-      "https://app-2-0-sand.vercel.app/api/searchnews": {
+      "/api/searchnews": {
         "get": {
           "summary": "Search News Posts",
           "description": "Retrieve posts from news account types.",
