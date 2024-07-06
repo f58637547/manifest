@@ -4,7 +4,7 @@
   "plugins": [
     {
       "author": "fcode",
-      "homepage": "https://seo-plugin.orrenprunckun.com",
+      "homepage": "https://fcode.ai",
       "identifier": "searchnews",
       "manifest": "https://manifest-ivory.vercel.app/cryptonews/manifest.json",
       "meta": {

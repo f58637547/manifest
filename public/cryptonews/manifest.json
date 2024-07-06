@@ -1,7 +1,7 @@
 {
   "api": {
     "type": "openapi",
-    "url": "https://manifest-ivory.vercel.app/cryptonews/openapi.json",
+    "url": "https://app-2-0-sand.vercel.app/search/news/openai.json",
     "is_user_authenticated": false
   },
   "auth": {
