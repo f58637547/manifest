@@ -6,9 +6,9 @@
       "author": "fcode",
       "homepage": "https://fcode.ai",
       "identifier": "searchnews",
-      "manifest": "https://manifest-ivory.vercel.app/cryptonews/manifest.json",
+      "manifest": "https://manifest-ivory.vercel.app/news/manifest.json",
       "meta": {
-        "avatar": "https://manifest-ivory.vercel.app/cryptonews/logo.webp",
+        "avatar": "https://manifest-ivory.vercel.app/news/logo.webp",
         "description": "Plugin for accessing, browsing and extracting Fcode AI news content.",
         "tags": ["news"],
         "title": "Fcode crypto news"

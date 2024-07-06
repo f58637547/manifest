@@ -1,7 +1,7 @@
 {
     "api": {
       "type": "openapi",
-      "url": "https://app-2-0-sand.vercel.app/search/news/openai.json",
+      "url": "https://manifest-ivory.vercel.app/news/openai.json",
       "is_user_authenticated": false
     },
     "auth": {
@@ -11,7 +11,7 @@
     "description_for_human": "Plugin for accessing, browsing and extracting Medium content.",
     "description_for_model": "Requests Medium posts, stories, to do manipulation and queries on the content.",
     "legal_info_url": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
-    "logo_url": "https://manifest-ivory.vercel.app/cryptonews/logo.webp",
+    "logo_url": "https://manifest-ivory.vercel.app/news/logo.webp",
     "name_for_human": "Fcode",
     "name_for_model": "Fcode",
     "schema_version": "v1"
