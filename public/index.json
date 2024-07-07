@@ -11,7 +11,7 @@
         "avatar": "https://f58637547.github.io/manifest/public/news/logo.webp",
         "description": "Plugin for accessing, browsing and extracting Fcode AI news content.",
         "tags": ["news"],
-        "title": "Fcode crypto news"
+        "title": "Fcode news"
       },
       "schemaVersion": 1
     },
