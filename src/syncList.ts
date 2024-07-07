@@ -12,7 +12,7 @@ interface PluginItem {
 const PluginList: PluginItem[] = [
   {
     manifest: 'https://manifest-ivory.vercel.app/.well-known/ai-plugin.json',
-    path: 'cryptonews',
+    path: 'news',
     tags: ['article', 'search'],
   },
   {

@@ -6,9 +6,9 @@
       "author": "fcode",
       "homepage": "https://fcode.ai",
       "identifier": "searchnews",
-      "manifest": "https://manifest-ivory.vercel.app/news/manifest.json",
+      "manifest": "https://f58637547.github.io/manifest/public/news/manifest.json",
       "meta": {
-        "avatar": "https://manifest-ivory.vercel.app/news/logo.webp",
+        "avatar": "https://f58637547.github.io/manifest/public/news/logo.webp",
         "description": "Plugin for accessing, browsing and extracting Fcode AI news content.",
         "tags": ["news"],
         "title": "Fcode crypto news"
@@ -500,9 +500,9 @@
       "author": "medium",
       "homepage": "https://medium.com",
       "identifier": "MediumGPTPlugin",
-      "manifest": "https://manifest-ivory.vercel.app/medium/manifest.json",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/medium/manifest.json",
       "meta": {
-        "avatar": "https://manifest-ivory.vercel.app/medium/logo.webp",
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/medium/logo.webp",
         "description": "Plugin for accessing, browsing and extracting Medium content.",
         "tags": ["article", "search"],
         "title": "Medium plugin"
