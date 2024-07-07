@@ -1,13 +1,19 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "Fcode crypto news",
+    "title": "Search News API",
     "version": "1.0.0",
-    "description": "API for accessing, browsing, and extracting content from YourApp."
+    "description": "API for searching news posts."
   },
+  "servers": [
+    {
+      "url": "https://app-2-0-sand.vercel.app"
+    }
+  ],
   "paths": {
     "/api/searchnews": {
       "get": {
+        "operationId": "searchNewsPosts",  
         "summary": "Search News Posts",
         "description": "Retrieve posts from news account types.",
         "parameters": [
@@ -145,7 +151,19 @@
               }
             },
             "500": {
-              "description": "Internal server error"
+              "description": "Internal server error",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "message": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
             }
           }
         }
