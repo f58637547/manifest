@@ -11,7 +11,7 @@ interface PluginItem {
 }
 const PluginList: PluginItem[] = [
   {
-    manifest: 'https://fcode.ai/.well-known/ai-plugin.json',
+    manifest: 'https://medium.com/.well-known/ai-plugin.json',
     path: 'news',
     tags: ['article', 'search'],
   },

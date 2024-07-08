@@ -37,15 +37,26 @@ const run = async () => {
         if (!existsSync(dirPath)) {
           mkdirSync(dirPath, { recursive: true });
         }
+        consola.info(`Fetching manifest: ${manifest}`);
         const manifestRes = await fetch(manifest);
+        if (!manifestRes.ok) {
+          throw new Error(`Failed to fetch manifest: ${manifestRes.statusText}`);
+        }
         let manifestJson: PluginManifest = await manifestRes.json();
-        if (!manifestJson) return;
+        if (!manifestJson) {
+          throw new Error(`Manifest is empty for path: ${path}`);
+        }
+        consola.info(`Fetched manifest: ${JSON.stringify(manifestJson, null, 2)}`);
 
         if (overrides?.manifest) {
           manifestJson = merge(manifestJson, overrides.manifest);
         }
 
+        consola.info(`Fetching API: ${manifestJson.api.url}`);
         const apiRes = await fetch(manifestJson.api.url);
+        if (!apiRes.ok) {
+          throw new Error(`Failed to fetch API: ${apiRes.statusText}`);
+        }
         const isJSON = manifestJson.api.url.includes('.json');
         const apiFilename = 'openapi.json';
 
