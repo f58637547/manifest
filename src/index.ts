@@ -37,14 +37,20 @@ const run = async () => {
         if (!existsSync(dirPath)) {
           mkdirSync(dirPath, { recursive: true });
         }
+        consola.info(`Fetching manifest: ${manifest}`);
         const manifestRes = await fetch(manifest);
         let manifestJson: PluginManifest = await manifestRes.json();
-        if (!manifestJson) return;
+        if (!manifestJson) {
+          consola.warn(`Manifest is empty for path: ${path}`);
+          return;
+        }
+        consola.info(`Fetched manifest: ${JSON.stringify(manifestJson, null, 2)}`);
 
         if (overrides?.manifest) {
           manifestJson = merge(manifestJson, overrides.manifest);
         }
 
+        consola.info(`Fetching API: ${manifestJson.api.url}`);
         const apiRes = await fetch(manifestJson.api.url);
         const isJSON = manifestJson.api.url.includes('.json');
         const apiFilename = 'openapi.json';
@@ -116,10 +122,11 @@ const run = async () => {
     { concurrency: 5 },
   );
 
-  writeJSON(resolve(pluginDir, 'index.json'), {
-    expires: expireList,
-    plugins: list.filter(Boolean),
-  });
+  // Comment out or remove this block to avoid modifying index.json
+  // writeJSON(resolve(pluginDir, 'index.json'), {
+  //   expires: expireList,
+  //   plugins: list.filter(Boolean),
+  // });
 };
 
 run();
