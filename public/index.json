@@ -4,7 +4,7 @@
   "plugins": [
     {
       "author": "fcode",
-      "homepage": "https://medium.com",
+      "homepage": "https://app-2-0-sand.vercel.app/",
       "identifier": "searchnews",
       "manifest": "https://manifest-ivory.vercel.app/news/manifest.json",
       "meta": {

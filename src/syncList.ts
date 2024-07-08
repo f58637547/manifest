@@ -11,7 +11,7 @@ interface PluginItem {
 }
 const PluginList: PluginItem[] = [
   {
-    manifest: 'https://medium.com/.well-known/ai-plugin.json',
+    manifest: 'https://app-2-0-sand.vercel.app/.well-known/ai-plugin.json',
     path: 'news',
     tags: ['article', 'search'],
   },
