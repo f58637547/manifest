@@ -12,7 +12,7 @@ interface PluginItem {
 }
 const PluginList: PluginItem[] = [
   {
-    manifest: 'https://fcode.ai/.well-known/ai-plugin.json',
+    manifest: 'https://manifest-ivory.vercel.app/news/openai.json',
     path: 'news',
     tags: ['article', 'search'],
   },
