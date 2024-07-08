@@ -1,18 +1,55 @@
 {
-    "api": {
-      "type": "openapi",
-      "url": "https://f58637547.github.io/manifest/public/news/openai.json",
-      "is_user_authenticated": false
-    },
-    "auth": {
-      "type": "none"
-    },
-    "contact_email": "support@medium.com",
-    "description_for_human": "Plugin for accessing, browsing and extracting Medium content.",
-    "description_for_model": "Requests Medium posts, stories, to do manipulation and queries on the content.",
-    "legal_info_url": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
-    "logo_url": "https://f58637547.github.io/manifest/public/news/logo.webp",
-    "name_for_human": "Fcode",
-    "name_for_model": "Fcode",
-    "schema_version": "v1"
-  }
+  "api": [
+    {
+      "description": "Search News Posts",
+      "name": "searchNewsPosts",
+      "parameters": {
+        "properties": {
+          "search": {
+            "type": "string"
+          },
+          "page": {
+            "type": "integer",
+            "default": 1
+          },
+          "limit": {
+            "type": "integer",
+            "default": 10
+          }
+        },
+        "type": "object"
+      }
+    }
+  ],
+  "homepage": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
+  "identifier": "Fcode",
+  "meta": {
+    "avatar": "https://f58637547.github.io/manifest/public/news/logo.webp",
+    "description": "Plugin for accessing, browsing and extracting Medium content.",
+    "title": "Fcode"
+  },
+  "openapi": "https://f58637547.github.io/manifest/public/news/openai.json",
+  "systemRole": "Requests Medium posts, stories, to do manipulation and queries on the content.",
+  "type": "default",
+  "version": "1",
+  "settings": {
+    "properties": {},
+    "type": "object"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://f58637547.github.io/manifest/public/news/openai.json",
+    "is_user_authenticated": false
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "support@medium.com",
+  "description_for_human": "Plugin for accessing, browsing and extracting Medium content.",
+  "description_for_model": "Requests Medium posts, stories, to do manipulation and queries on the content.",
+  "legal_info_url": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
+  "logo_url": "https://f58637547.github.io/manifest/public/news/logo.webp",
+  "name_for_human": "Fcode",
+  "name_for_model": "Fcode",
+  "schema_version": "v1"
+}

@@ -264,7 +264,11 @@ const PluginList: PluginItem[] = [
     path: 'uberchord',
     tags: ['music', 'guitar', 'search'],
   },
-
+  {
+    manifest: 'https://medium.com/.well-known/ai-plugin.json',
+    path: 'medium',
+    tags: ['article', 'search'],
+  },
   {
     manifest: 'https://mermaid.pyxl.uk/.well-known/ai-plugin.json',
     path: 'charts-and-diagrams',
