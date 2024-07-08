@@ -1,3 +1,4 @@
+// src/syncList.ts
 interface PluginItem {
   author?: string;
   homepage?: string;

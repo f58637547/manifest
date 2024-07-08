@@ -1,3 +1,4 @@
+// src/utils.ts
 import { readFileSync, writeFileSync } from 'node:fs';
 
 export const readJSON = (filePath) => {

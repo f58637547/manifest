@@ -1,3 +1,4 @@
+// src/index.ts
 import { consola } from 'consola';
 import { load } from 'js-yaml';
 import { merge } from 'lodash';

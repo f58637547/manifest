@@ -8,7 +8,7 @@
       "identifier": "searchnews",
       "manifest": "https://manifest-ivory.vercel.app/news/manifest.json",
       "meta": {
-        "avatar": "https://f58637547.github.io/manifest/public/news/logo.webp",
+        "avatar": "https://manifest-ivory.vercel.app/news/logo.webp",
         "description": "Plugin for accessing, browsing and extracting Fcode AI news content.",
         "tags": ["news", "crypto"],
         "title": "Fcode news"
