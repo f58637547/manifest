@@ -6,7 +6,7 @@
       "author": "Fcode",
       "homepage": "https://fcode.ai",
       "identifier": "searchnews",
-      "manifest": "https://f58637547.github.io/manifest/public/news/manifest.json",
+      "manifest": "https://manifest-ivory.vercel.app/news/manifest.json",
       "meta": {
         "avatar": "https://f58637547.github.io/manifest/public/news/logo.webp",
         "description": "Plugin for accessing, browsing and extracting Fcode AI news content.",
