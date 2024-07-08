@@ -1,9 +1,7 @@
 {
-  "expires": [
-  ],
   "plugins": [
     {
-      "author": "Fcode",
+      "author": "fcode",
       "homepage": "https://fcode.ai",
       "identifier": "searchnews",
       "manifest": "https://manifest-ivory.vercel.app/news/manifest.json",
