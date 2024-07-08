@@ -1,40 +1,23 @@
+// src/synclist.ts
 interface PluginItem {
-  path?: string;
   manifest: string;
-  tags?: string[];
+  path: string;
+  tags: string[];
+  homepage?: string;
+  identifier?: string;
+  title?: string;
 }
 
 const PluginList: PluginItem[] = [
   {
     manifest: 'https://manifest-ivory.vercel.app/news/manifest.json',
     path: 'news',
-    tags: ['article', 'search'],
+    tags: ['news', 'crypto'],
+    homepage: 'https://app-2-0-sand.vercel.app/',
+    identifier: 'news',
+    title: 'News'
   },
-  {
-    manifest: 'https://savvytrader.com/.well-known/ai-plugin.json',
-    path: 'savvy-trader',
-    tags: ['stock', 'analyze'],
-  },
-  {
-    manifest: 'https://weathergpt.vercel.app/.well-known/ai-plugin.json',
-    path: 'weather-gpt',
-    tags: ['weather'],
-  },
-  {
-    manifest: 'https://portfoliometa.com/.well-known/ai-plugin.json',
-    path: 'stock-data',
-    tags: ['stock'],
-  },
-  {
-    manifest: 'https://medium.com/.well-known/ai-plugin.json',
-    path: 'medium',
-    tags: ['article', 'search'],
-  },
-  {
-    manifest: 'https://mermaid.pyxl.uk/.well-known/ai-plugin.json',
-    path: 'charts-and-diagrams',
-    tags: ['chart', 'diagram'],   
-  }
+  // Add other plugins as needed
 ];
 
 export default PluginList;

@@ -5,9 +5,12 @@ import PluginList from './syncList';
 import { pluginDir } from './const';
 
 interface PluginItem {
-  manifest: string;
   path: string;
+  manifest: string;
   tags: string[];
+  homepage?: string;
+  identifier?: string;
+  title?: string;
 }
 
 interface Manifest {
@@ -31,14 +34,14 @@ interface Manifest {
 const generateManifestJson = (pluginList: PluginItem[]): Manifest => {
   const plugins = pluginList.map(plugin => ({
     author: plugin.path,
-    homepage: plugin.manifest,
-    identifier: plugin.path,
+    homepage: plugin.homepage || `https://${plugin.manifest.split('/')[2]}`,
+    identifier: plugin.identifier || plugin.path,
     manifest: plugin.manifest,
     meta: {
       avatar: `${plugin.manifest.replace('/manifest.json', '/logo.webp')}`,
       description: `Plugin for accessing, browsing and extracting ${plugin.path} content.`,
       tags: plugin.tags,
-      title: `${plugin.path.charAt(0).toUpperCase() + plugin.path.slice(1)} news`,
+      title: plugin.title || `${plugin.path.charAt(0).toUpperCase() + plugin.path.slice(1)} news`,
     },
     schemaVersion: 1,
   }));
