@@ -14,7 +14,7 @@ const PluginList: PluginItem[] = [
     path: 'news',
     tags: ['news', 'crypto'],
     homepage: 'https://app-2-0-sand.vercel.app/',
-    identifier: 'news',
+    identifier: 'searchnews',
     title: 'News'
   },
   // Add other plugins as needed
