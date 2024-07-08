@@ -1,4 +1,3 @@
-// src/syncList.ts
 interface PluginItem {
   author?: string;
   homepage?: string;
@@ -12,7 +11,7 @@ interface PluginItem {
 }
 const PluginList: PluginItem[] = [
   {
-    manifest: 'https://manifest-ivory.vercel.app/news/openai.json',
+    manifest: 'https://fcode.ai/.well-known/ai-plugin.json',
     path: 'news',
     tags: ['article', 'search'],
   },

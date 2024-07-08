@@ -1,4 +1,3 @@
-// src/index.ts
 import { consola } from 'consola';
 import { load } from 'js-yaml';
 import { merge } from 'lodash';
@@ -12,7 +11,7 @@ import { BASE_URL, pluginDir } from './const';
 import data from './syncList';
 import { getAuthor, getDomainFromUrl, readJSON, writeJSON } from './utils';
 
-export interface PluginMainifest {
+export interface PluginManifest {
   api: {
     url: string;
   };
@@ -39,7 +38,7 @@ const run = async () => {
           mkdirSync(dirPath, { recursive: true });
         }
         const manifestRes = await fetch(manifest);
-        let manifestJson: PluginMainifest = await manifestRes.json();
+        let manifestJson: PluginManifest = await manifestRes.json();
         if (!manifestJson) return;
 
         if (overrides?.manifest) {
@@ -109,7 +108,7 @@ const run = async () => {
         consola.error(`Failed to sync ${path}`, error);
         const cachePath = resolve(dirPath, 'manifest.json');
         if (!existsSync(cachePath)) return;
-        const cacheManifest: PluginMainifest = readJSON(resolve(dirPath, 'manifest.json'));
+        const cacheManifest: PluginManifest = readJSON(resolve(dirPath, 'manifest.json'));
         expireList.push(cacheManifest.name_for_model);
         consola.warn(`Add ${path} to expire list`);
       }
