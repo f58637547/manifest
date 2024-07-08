@@ -3,9 +3,9 @@
   ],
   "plugins": [
     {
-      "author": "fcode",
-      "homepage": "https://app-2-0-sand.vercel.app/",
-      "identifier": "searchnews",
+      "author": "news",
+      "homepage": "https://app-2-0-sand.vercel.app",
+      "identifier": "news",
       "manifest": "https://manifest-ivory.vercel.app/news/manifest.json",
       "meta": {
         "avatar": "https://manifest-ivory.vercel.app/news/logo.webp",
