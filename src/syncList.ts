@@ -1,17 +1,12 @@
 interface PluginItem {
-  author?: string;
-  homepage?: string;
+  path?: string;
   manifest: string;
-  overrides?: {
-    manifest?: { [key: string]: any };
-    openapi?: { [key: string]: any };
-  };
-  path: string;
   tags?: string[];
 }
+
 const PluginList: PluginItem[] = [
   {
-    manifest: 'https://app-2-0-sand.vercel.app/.well-known/ai-plugin.json',
+    manifest: 'https://manifest-ivory.vercel.app/news/manifest.json',
     path: 'news',
     tags: ['article', 'search'],
   },
@@ -111,15 +106,11 @@ const PluginList: PluginItem[] = [
     tags: ['nasa', 'search', 'image'],
   },
   {
-    author: 'steven-tey',
-    homepage: 'https://github.com/steven-tey/weathergpt',
     manifest: 'https://weathergpt.vercel.app/.well-known/ai-plugin.json',
     path: 'weather-gpt',
     tags: ['weather'],
   },
   {
-    author: 'yunwei37',
-    homepage: 'https://github.com/yunwei37/ChatGPT-github-stat-plugin',
     manifest: 'https://chat-gpt-github-stat-plugin.vercel.app/.well-known/ai-plugin.json',
     path: 'github-stats',
     tags: ['github', 'oss'],
