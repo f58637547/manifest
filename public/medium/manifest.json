@@ -1,7 +1,7 @@
 {
   "api": {
     "type": "openapi",
-    "url": "https://openai-collections.chat-plugin.lobehub.com/medium/openapi.json",
+    "url": "https://f58637547.github.io/manifest/public/medium/openapi.json",
     "is_user_authenticated": false
   },
   "auth": {
