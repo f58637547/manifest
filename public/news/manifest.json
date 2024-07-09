@@ -7,13 +7,11 @@
     "auth": {
       "type": "none"
     },
-    "contact_email": "support@medium.com",
-    "description_for_human": "Plugin for accessing, browsing and extracting Medium content.",
-    "description_for_model": "Requests Medium posts, stories, to do manipulation and queries on the content.",
-    "legal_info_url": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
+    "description_for_human": "Plugin for accessing, browsing and extracting Fcode AI news content.",
+    "description_for_model": "Plugin for accessing, browsing and extracting Fcode AI news content.",
     "logo_url": "https://manifest-ivory.vercel.app/news/logo.webp",
-    "name_for_human": "Fcode",
-    "name_for_model": "Fcode",
+    "name_for_human": "Crypto news",
+    "name_for_model": "CryptoNews",
     "schema_version": "v1"
   }
 

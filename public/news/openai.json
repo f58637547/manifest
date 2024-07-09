@@ -1,9 +1,9 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "Search News API",
+    "title": "Search Cryppto News",
     "version": "1.0.0",
-    "description": "API for searching news posts."
+    "description": "Plugin for accessing, browsing and extracting Fcode AI news content."
   },
   "servers": [
     {
