@@ -1,13 +1,13 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "Search Cryppto News",
+    "title": "Cryppto News",
     "version": "1.0.0",
     "description": "Plugin for accessing, browsing and extracting Fcode AI news content."
   },
   "servers": [
     {
-      "url": "https://app-2-0-sand.vercel.app"
+      "url": "https://fcode.ai"
     }
   ],
   "paths": {
@@ -70,54 +70,10 @@
                       "image": {
                         "type": "string"
                       },
-                      "locations": {
-                        "type": "array",
-                        "items": {
-                          "type": "object",
-                          "properties": {
-                            "name": {
-                              "type": "string"
-                            }
-                          }
-                        }
-                      },
-                      "organizations": {
-                        "type": "array",
-                        "items": {
-                          "type": "object",
-                          "properties": {
-                            "name": {
-                              "type": "string"
-                            }
-                          }
-                        }
-                      },
-                      "people": {
-                        "type": "array",
-                        "items": {
-                          "type": "object",
-                          "properties": {
-                            "name": {
-                              "type": "string"
-                            }
-                          }
-                        }
-                      },
                       "sentiment": {
                         "type": "string"
                       },
                       "symbols": {
-                        "type": "array",
-                        "items": {
-                          "type": "object",
-                          "properties": {
-                            "name": {
-                              "type": "string"
-                            }
-                          }
-                        }
-                      },
-                      "tags": {
                         "type": "array",
                         "items": {
                           "type": "object",
@@ -150,6 +106,21 @@
                 }
               }
             },
+            "429": {
+            "description": "Too Many Requests",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
             "500": {
               "description": "Internal server error",
               "content": {
