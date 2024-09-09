@@ -1,9 +1,9 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "Crypto News",
+    "title": "Crypto Breaking News",
     "version": "1.0.0",
-    "description": "Plugin for crypto news."
+    "description": "Plugin for crypto breaking news."
   },
   "servers": [
     {
@@ -11,10 +11,10 @@
     }
   ],
   "paths": {
-    "/api/searchnews": {
+    "/api/searchnews2": {
       "get": {
-        "operationId": "searchCryptoNews",  
-        "summary": "Search Crypto News",
+        "operationId": "searchCryptoNewsBreaking",  
+        "summary": "Search Crypto Breaking News",
         "description": "Retrieve posts from news account types.",
         "parameters": [
           {

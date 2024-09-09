@@ -4,11 +4,11 @@
   "plugins": [
     {
       "author": "fcode",
-      "homepage": "https://app-2-0-sand.vercel.app",
+      "homepage": "https://fcode.ai",
       "identifier": "CryptoNews",
       "manifest": "https://manifest-ivory.vercel.app/news/manifest.json",
       "meta": {
-        "avatar": "https://manifest-ivory.vercel.app/news/logo.webp",
+        "avatar": "https://manifest-ivory.vercel.app/news/logo.png",
         "description": "Plugin for accessing, browsing and extracting Fcode AI news content.",
         "tags": ["news", "crypto"],
         "title": "Crypto News"
