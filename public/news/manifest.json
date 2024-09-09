@@ -10,8 +10,8 @@
     "description_for_human": "Plugin for crypto news.",
     "description_for_model": "Plugin for crypto news.",
     "logo_url": "https://manifest-ivory.vercel.app/news/logo.png",
-    "name_for_human": "Crypto news",
-    "name_for_model": "CryptoNews",
+    "name_for_human": "Crypto News",
+    "name_for_model": "Crypto News",
     "schema_version": "v1"
   }
 
