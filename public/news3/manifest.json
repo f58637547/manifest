@@ -11,7 +11,7 @@
     "description_for_model": "Plugin for breaking news.",
     "logo_url": "https://manifest-ivory.vercel.app/news3/logo.png",
     "name_for_human": "Breaking News",
-    "name_for_model": "Breaking News",
+    "name_for_model": "BreakingNews",
     "schema_version": "v1"
   }
 

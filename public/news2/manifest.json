@@ -11,7 +11,7 @@
     "description_for_model": "Plugin for crypto breaking news.",
     "logo_url": "https://manifest-ivory.vercel.app/news2/logo.png",
     "name_for_human": "Crypto Breaking",
-    "name_for_model": "Crypto Breaking",
+    "name_for_model": "CryptoBreaking",
     "schema_version": "v1"
   }
 
