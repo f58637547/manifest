@@ -1,0 +1,18 @@
+{
+    "api": {
+      "type": "openapi",
+      "url": "https://manifest-ivory.vercel.app/news5/openai.json",
+      "is_user_authenticated": false
+    },
+    "auth": {
+      "type": "none"
+    },
+    "description_for_human": "Plugin for onchain.",
+    "description_for_model": "Plugin for onchain.",
+    "logo_url": "https://manifest-ivory.vercel.app/news5/logo.png",
+    "name_for_human": "Onchain",
+    "name_for_model": "Onchain",
+    "schema_version": "v1"
+  }
+
+  
