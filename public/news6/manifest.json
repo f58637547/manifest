@@ -1,0 +1,18 @@
+{
+    "api": {
+      "type": "openapi",
+      "url": "https://manifest-ivory.vercel.app/news6/openai.json",
+      "is_user_authenticated": false
+    },
+    "auth": {
+      "type": "none"
+    },
+    "description_for_human": "Plugin for world news.",
+    "description_for_model": "Plugin for world news.",
+    "logo_url": "https://manifest-ivory.vercel.app/news6/logo.png",
+    "name_for_human": "World News",
+    "name_for_model": "World",
+    "schema_version": "v1"
+  }
+
+  
