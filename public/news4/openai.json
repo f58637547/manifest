@@ -1,9 +1,9 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "Research",
+    "title": "Oracle",
     "version": "1.0.0",
-    "description": "Plugin for research."
+    "description": "Plugin for oracle."
   },
   "servers": [
     {
@@ -13,8 +13,8 @@
   "paths": {
     "/api/searchnews4": {
       "get": {
-        "operationId": "searchResearch",  
-        "summary": "Search Research",
+        "operationId": "searchOracle",  
+        "summary": "Search Oracle",
         "description": "Retrieve posts from news account types.",
         "parameters": [
           {

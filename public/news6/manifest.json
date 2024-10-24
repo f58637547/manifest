@@ -7,11 +7,11 @@
     "auth": {
       "type": "none"
     },
-    "description_for_human": "Plugin for world news.",
-    "description_for_model": "Plugin for world news.",
+    "description_for_human": "Plugin for Doomer feed.",
+    "description_for_model": "Plugin for Doomer feed.",
     "logo_url": "https://manifest-ivory.vercel.app/news6/logo.png",
-    "name_for_human": "World News",
-    "name_for_model": "World",
+    "name_for_human": "Doomer feed",
+    "name_for_model": "Doomer",
     "schema_version": "v1"
   }
 

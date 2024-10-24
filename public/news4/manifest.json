@@ -7,11 +7,11 @@
     "auth": {
       "type": "none"
     },
-    "description_for_human": "Plugin for research.",
-    "description_for_model": "Plugin for research.",
+    "description_for_human": "Plugin for Oracle feed.",
+    "description_for_model": "Plugin for Oracle feed.",
     "logo_url": "https://manifest-ivory.vercel.app/news4/logo.png",
-    "name_for_human": "Research",
-    "name_for_model": "Research",
+    "name_for_human": "Oracle",
+    "name_for_model": "Oracle",
     "schema_version": "v1"
   }
 

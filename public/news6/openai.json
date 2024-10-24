@@ -1,9 +1,9 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "World News",
+    "title": "Doomer feed",
     "version": "1.0.0",
-    "description": "Plugin for world news."
+    "description": "Plugin for Doomer feed."
   },
   "servers": [
     {
@@ -13,8 +13,8 @@
   "paths": {
     "/api/searchnews6": {
       "get": {
-        "operationId": "searchWorld",  
-        "summary": "Search World News",
+        "operationId": "searchDoomer",  
+        "summary": "Search Doomer feed",
         "description": "Retrieve posts from news account types.",
         "parameters": [
           {

@@ -7,11 +7,11 @@
     "auth": {
       "type": "none"
     },
-    "description_for_human": "Plugin for breaking news.",
-    "description_for_model": "Plugin for breaking news.",
+    "description_for_human": "Plugin for Boomer Finance news.",
+    "description_for_model": "Plugin for Boomer Finance news.",
     "logo_url": "https://manifest-ivory.vercel.app/news3/logo.png",
-    "name_for_human": "Breaking News",
-    "name_for_model": "BreakingNews",
+    "name_for_human": "Boomer Finance news",
+    "name_for_model": "BoomerNews",
     "schema_version": "v1"
   }
 

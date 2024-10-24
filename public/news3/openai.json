@@ -1,9 +1,9 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "Breaking News",
+    "title": "Boomer Finance news",
     "version": "1.0.0",
-    "description": "Plugin for breaking news."
+    "description": "Plugin for Boomer Finance news."
   },
   "servers": [
     {
@@ -13,8 +13,8 @@
   "paths": {
     "/api/searchnews3": {
       "get": {
-        "operationId": "searchNewsBreaking",  
-        "summary": "Search Breaking News",
+        "operationId": "searchNewsBoomer",  
+        "summary": "Search Boomer Finance news",
         "description": "Retrieve posts from news account types.",
         "parameters": [
           {

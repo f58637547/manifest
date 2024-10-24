@@ -7,11 +7,11 @@
     "auth": {
       "type": "none"
     },
-    "description_for_human": "Plugin for onchain.",
-    "description_for_model": "Plugin for onchain.",
+    "description_for_human": "Plugin for Chad Traders feed.",
+    "description_for_model": "Plugin for Chad Traders feed.",
     "logo_url": "https://manifest-ivory.vercel.app/news5/logo.png",
-    "name_for_human": "Onchain",
-    "name_for_model": "Onchain",
+    "name_for_human": "Chad Traders feed",
+    "name_for_model": "Chad",
     "schema_version": "v1"
   }
 

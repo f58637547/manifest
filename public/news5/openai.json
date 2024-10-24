@@ -3,7 +3,7 @@
   "info": {
     "title": "Onchain",
     "version": "1.0.0",
-    "description": "Plugin for onchain."
+    "description": "Plugin for Chad Traders feed."
   },
   "servers": [
     {
@@ -13,8 +13,8 @@
   "paths": {
     "/api/searchnews5": {
       "get": {
-        "operationId": "searchOnchain",  
-        "summary": "Search Onchain",
+        "operationId": "searchChad",  
+        "summary": "Search Chad Traders feed",
         "description": "Retrieve posts from news account types.",
         "parameters": [
           {

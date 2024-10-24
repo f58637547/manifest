@@ -1,9 +1,9 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "Crypto Breaking News",
+    "title": "Redpill feed",
     "version": "1.0.0",
-    "description": "Plugin for crypto breaking news."
+    "description": "Plugin for redpill feed."
   },
   "servers": [
     {
@@ -13,8 +13,8 @@
   "paths": {
     "/api/searchnews2": {
       "get": {
-        "operationId": "searchCryptoNewsBreaking",  
-        "summary": "Search Crypto Breaking News",
+        "operationId": "searchRedpill",  
+        "summary": "Search Redpill feed",
         "description": "Retrieve posts from news account types.",
         "parameters": [
           {
